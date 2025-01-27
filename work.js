@@ -1,0 +1,1 @@
+const odd = 1
