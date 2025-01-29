@@ -1,0 +1,139 @@
+.food-item{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.left-menu-details{
+    height: 100vh;
+    width: 20%;
+    background: #350303;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+
+    h4{
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+        color: black;
+        height: 10%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #b3b306;
+    }
+
+    nav{
+        height: 80%;
+        width: 85%;
+        /* background-color: snow; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow-y: auto;
+        border-radius: 10px;
+        padding: 5px;
+        scrollbar-color: white;
+        scrollbar-width: 10px;
+
+        main{
+            height: 15%;
+            min-height: 7vh;
+            width: 100%;
+            padding: 6px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            /* background-color: yellow; */
+            color: #b3b306;
+            border: 1px solid #450707;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            cursor: pointer;
+            /* background-color: bisque; */
+        }
+    }
+}
+.right-menu-details{
+    height: 100vh;
+    width: 80%;
+    background: url('https://www.textures4photoshop.com/tex/thumbs/italian-restaurant-menu-with-chalkboard-background-1449.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.right-menu-main-holder{
+    height: 75%;
+    width: 70%;
+    /* background-color: aqua; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+    main{
+        height: 70%;
+        width: 80%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+
+        nav{
+            height: 100%;
+            width: 52%;
+            /* background-color: aqua; */
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            color: #b3b306;
+            padding-top: 50px;
+
+
+            h5{
+                font-size: 20px;
+                text-align: center;
+                font-weight: 500;
+            }
+
+            p{
+                font-size: 15px;
+            }
+
+            h6{
+                font-size: 25px;
+            }
+        }
+
+        div{
+            height: 100%;
+            width: 45%;
+            /* background-color: #350303; */
+            border-radius: 15px;
+
+            img{
+                height: 100%;
+                width: 100%;
+                /* border: none; */
+                border-radius: 15px;
+            }
+        }
+    }
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

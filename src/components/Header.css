@@ -1,0 +1,89 @@
+.header{
+    height: 13vh;
+    width: 100%;
+    background: mintcream;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    position: sticky;
+    gap: 15px;
+    justify-content: space-between;
+
+    .login:hover{
+        background-color: #37ce37;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .login{
+        background-color: #28b728;
+    }
+    
+    .sign-up{
+        background-color: #b6b614;
+    }
+    .sign-up:hover{
+        background-color: #9f9f21;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    button{
+        padding: 7px;
+        font-weight: 700;
+        margin-inline: 1px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        border: 1px solid gainsboro;
+        
+        /* background-color: ; */
+    }
+
+    .search-icon{
+        position: absolute;
+        top: 7px;
+        left: 7px;
+    }
+
+    input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        padding-inline: 25px;
+        border-radius: 15px;
+        border: 1px solid black;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        /* position: relative; */
+    }
+    
+    .input-holder{
+        height: 50%;
+        width: 25%;
+        position: relative;
+        margin-left: 15px;
+    }
+
+    h3{
+        font-size: 20px;
+        font-weight: 500;
+
+    }
+
+    div{
+        height: 100%;
+        width: 9%;
+        border-radius: 15px;
+
+
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+}
+#item{
+    width: 17%;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

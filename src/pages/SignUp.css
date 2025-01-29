@@ -1,0 +1,119 @@
+.sign-up{
+    height: 100vh;
+    width: 100%;
+    background: url('https://static.vecteezy.com/system/resources/previews/022/576/369/large_2x/image-of-wooden-table-in-front-of-abstract-blurred-background-of-resturant-lights-wood-table-top-on-blur-of-lighting-in-night-cafe-restaurant-background-selective-focus-generative-ai-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-holder{
+    height: 85%;
+    width: 50%;
+    background-color: rgba(47, 13, 13, 0.315);
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-second-holder{
+    height: 90%;
+    width: 75%;
+    background-color: rgba(200, 197, 197, 0.521);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+
+    footer{
+        height: 10%;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #dd9104;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+
+        p{
+            cursor: pointer;
+        }
+    }
+
+    nav{
+        height: 70%;
+        width: 95%;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        button{
+            height: 12%;
+            width: 100%;
+            background-color: orange;
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #dd9104;
+        }
+
+        div{
+            height: 18%;
+            width: 100%;
+            /* background-color: antiquewhite; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3px;
+
+            input{
+                width: 100%;
+                border-radius: 3px;
+                outline: none;
+                border: 1px solid black;
+                padding-inline: 5px;
+                padding: 3px;
+            }
+
+            p{
+                font-size: 14px;
+                font-weight: 550;
+            }
+        }
+    }
+
+    header{
+        height: 15%;
+        width: 100%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        button{
+            height: 80%;
+            width: 10%;
+            font-size: 20px;
+            background: transparent;
+            outline: none;
+            border: none;
+        }
+        
+        h4{
+            font-size: 22px;
+            font-weight: 500;
+            color: #dd9104;
+        }
+    }
+}
