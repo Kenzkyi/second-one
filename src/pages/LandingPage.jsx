@@ -1,13 +1,25 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useDebugValue, useEffect, useState } from 'react'
 import Food from '../components/Food'
 import Header from '../components/Header'
 import './LandingPage.css'
 import { useNavigate } from 'react-router-dom'
 import { myContent } from '../components/AllContent'
+import { dailySpecial } from '../components/Data'
 
 const LandingPage = () => {
   const navigate=useNavigate()
-  const [first,second] = useState(false)
+  const [imgNum,setImgNum] = useState(0)
+  useEffect(()=>{
+    if(imgNum<7){
+      setTimeout(() => {
+        setImgNum(imgNum + 1)
+      }, 5000);
+    }else if(imgNum === 7){
+
+      setImgNum(0)
+    }
+  },[imgNum])
+  console.log(imgNum)
   // useEffect(()=>{
   //   setTimeout(()=>{
   //     second(!first)
@@ -29,10 +41,7 @@ const LandingPage = () => {
       <Header/>
       <div className="landing-page-holder">
         <div className='daily-special'>
-          {first?<img src="https://www.tonickitchen.ca/wp-content/uploads/2019/07/tonic_happyhourspecials_web_2-1200x1553.jpg" alt="" />:<img src='https://i.pinimg.com/originals/94/6f/67/946f67b80a603f2b0a053e88df7d0e7b.jpg'/>}
-        </div>
-        <div className="daily-special-two">
-          <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/oT0tfWgum76lzdVqNese/media/75a327f7-ce25-4abf-b78d-8a6923e8cadb.jpeg" />
+          <img src={dailySpecial[imgNum]} />
         </div>
       </div>
       <div className="category-holder">

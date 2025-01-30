@@ -16,11 +16,12 @@
 }
 .daily-special{
     height: 90%;
-    width: 35%;
+    width: 65%;
     margin: 20px;
     margin-left: 100px;
     /* background-color: aqua; */
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     /* cursor: pointer; */
     /* animation: fadeOutLeft;
     animation-duration: 10s;
@@ -32,6 +33,7 @@
     img{
         height: 100%;
         width: 100%;
+        border-radius: 15px;
     }
 }
 .daily-special-two{
