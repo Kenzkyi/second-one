@@ -36,6 +36,7 @@ const Header = () => {
       <div className="header-img" onClick={()=>navigate('/login')}>
         <img src="https://www.thereciperebel.com/wp-content/uploads/2020/07/best-burgers-www.thereciperebel.com-1200-13-of-18.jpg" />
       </div>
+      <main className="select-holder">
       <h3>Get Your Sweet And Refreshing meal </h3>
       {/* <main className='input-holder'>
       <input type="text" placeholder='what do you need'/>
@@ -47,6 +48,7 @@ const Header = () => {
         <option value="Main">Main</option>
         <option value="Dessert">Dessert</option>
       </select>
+      </main>
       <div className="header-img">
         <img src="https://wallpaperaccess.com/full/1312802.jpg" />
       </div>
