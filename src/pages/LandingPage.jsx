@@ -19,7 +19,6 @@ const LandingPage = () => {
       setImgNum(0)
     }
   },[imgNum])
-  console.log(imgNum)
   // useEffect(()=>{
   //   setTimeout(()=>{
   //     second(!first)

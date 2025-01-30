@@ -25,6 +25,10 @@
         align-items: center;
         justify-content: center;
         padding: 0;
+
+        @media screen and (max-width:600px) {
+            width: 100%;
+        }
     }
 
     .login-img-holder{
@@ -33,6 +37,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @media screen and (max-width:600px) {
+            display: none;
+        }
 
         img{
             height: 100%;
@@ -122,4 +130,5 @@
 
 
     }
+
 }

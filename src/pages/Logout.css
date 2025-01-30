@@ -44,6 +44,11 @@
 
         }
     }
+
+    @media screen and (max-width:550px) {
+        height: 60%;
+        width: 70%;
+    }
 }
 .no-btn{
     background-color: orangered;
