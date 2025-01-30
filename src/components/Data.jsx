@@ -56,3 +56,140 @@ export const starterItem = [
         img:'https://www.acouplecooks.com/wp-content/uploads/2020/04/Pan-Fried-Tofu-010.jpg'
     },
 ]
+export const mainItem = [
+    {
+        id:1,
+        name:'MUSHROOM RUMP STEAK',
+        description:'A delicious 230gram rump steak, topped with mushroom and gravy. Served with vegetable or salad and your choice of potatoes or French fries.',
+        price:'$27.50',
+        img:'https://www.aldi.com.au/fileadmin/fm-dam/images/Recipes/2018/Main_Meals/ALN1451_Rump-Steak-Mushroom_PD_455x315.jpg'
+    },
+    {
+        id:2,
+        name:'SURF & TURF',
+        description:'230 gram sirlorin steak topped with shrimps and our special sauce. served with vegetables or salad and your choice of potatoes or French fries',
+        price:'$31.50',
+        img:'https://www.corriecooks.com/wp-content/uploads/2023/05/Surf-And-Turf-2.jpg'
+    },
+    {
+        id:3,
+        name:'T-BONE STEAK',
+        description:'This a big one! 350 gram of T-bone steak served with vegetables or salad and your choice of potatoes or French fries on a hot plate.',
+        price:'$33.00',
+        img:'https://www.lobels.com/images/thumbs/0001957_20-oz-natural-prime-dry-aged-t-bone-steak.jpeg'
+    },
+    {
+        id:4,
+        name:'SIRLOIN STEAK',
+        description:'A delicious 230 gram sirloin steak served with vegetables or salad and your choice of potatoes or French fries.',
+        price:'$28.00',
+        img:'https://www.spendwithpennies.com/wp-content/uploads/2023/07/Grilled-Sirloin-Steak-2-SpendWithPennies-4.jpg'
+    },
+    {
+        id:5,
+        name:'BEEF RENDANG',
+        description:'King of all curry! An authentic spicy Indonesian dish with flavors of galagang and lemon grass, cooked with roasted coconut. Served with naan or rice and pickle.',
+        price:'$27.50',
+        img:'https://www.kitchenmess.com/wp-content/uploads/2020/07/DSC0549.jpg'
+    },
+    {
+        id:6,
+        name:'SIZZLING ROAST BEEF',
+        description:'Roasted beef pieces, potatoes and seasonal vegetables, cooked together and smothered in our special gravy.',
+        price:'$25.00',
+        img:'https://www.cookingwithmorgane.com/img/recipes/boeuf-sur-plaque-chauffante.jpg'
+    },
+    {
+        id:7,
+        name:'SATAY CHICKEN',
+        description:"An authentic dish! Served with rice and salad accompanied by Denny's ",
+        price:'$29.00',
+        img:'https://iamafoodblog.com/wp-content/uploads/2019/06/peanut-free-satay-4554.jpg'
+    },
+    {
+        id:8,
+        name:'APRICOT CHICKEN',
+        description:'Chicken breast, glazed in apricot marinade, grilled to perfection topped with hollandaise or cheese sauce',
+        price:'$25.00',
+        img:'https://i0.wp.com/mamalolacooks.com/wp-content/uploads/2022/10/FA9E80FB-B13C-40C8-A34E-6B9657993FEF.jpeg?resize=768%2C1010&ssl=1'
+    },
+    {
+        id:9,
+        name:'Pepper sauce',
+        description:'Addition of some extra pepper sauce to your meal to make it more spicy',
+        price:'$3.80',
+        img:'https://www.willcookforsmiles.com/wp-content/uploads/2021/01/Peppercorn-sauce-11.jpg'
+    }
+]
+export const dessertItem = [
+    {
+        id:1,
+        name:'Tiramisu',
+        description:'Espresso-soaked lady fingers layered with cocoa and sweet Italian mascarpone',
+        price:'$5.75',
+        img:'https://howtomakerecipes.com/wp-content/uploads/2021/08/tiramisu-classic-italian-no-bake-dessert-video-recipe1.jpg',
+    },
+    {
+        id:2,
+        name:'Pineapple Cheesecake',
+        description:'A fruity cheesecake in a hazelnut graham cracker crust, served with passion fruit coulis',
+        price:'$5.25',
+        img:'https://www.thespruceeats.com/thmb/F5X0mcCJw_Yfml9QpSs10oXR2Tk=/4048x2696/filters:no_upscale():max_bytes(150000):strip_icc()/easy-no-bake-pineapple-cheesecake-3052567-step-08-5c61ce00c9e77c0001662653.jpg',
+    },
+    {
+        id:3,
+        name:'Creme Caramel',
+        description:'A traditional European-style custard with rich caramel sauce',
+        price:'$5.25',
+        img:'https://cdn.tasteatlas.com/images/social/5df1094d6ecf44868968d2d2dd195909.jpg',
+    },
+    {
+        id:4,
+        name:'Peanut Butter Pie',
+        description:'Made with crunchy organic peanut butter in a chocolate cookie crumb crust',
+        price:'$6.75',
+        img:'https://www.motherthyme.com/wp-content/uploads/2016/07/Peanut-Butter-Pie-4-2.jpg',
+    },
+    {
+        id:5,
+        name:'Lemon Meringue Pie',
+        description:'Made fresh daily with lemon curd filling and topped with baked Italian meringue',
+        price:'$5.50',
+        img:'https://www.thespruceeats.com/thmb/m4mKUle9w646x62ir2Hhhr_Kco8%3D/4494x3000/filters:fill(auto%2C1)/easy-lemon-meringue-pie-1665109_hero-01-062327825768499a9c5407346ea709d8.jpg',
+    },
+    {
+        id:6,
+        name:'Carrot Cake',
+        description:'Four layers of homemade cake with organic cream cheese icing',
+        price:'$6.25',
+        img:'https://butternutbakeryblog.com/wp-content/uploads/2019/04/carrot-cake-layers.jpg',
+    },
+    {
+        id:7,
+        name:'Red Velvet Cake',
+        description:'Five layers of moist red velvet cake filled with coconut pecan cream',
+        price:'$6.25',
+        img:'https://chelsweets.com/wp-content/uploads/2013/12/142.jpg?w=388',
+    },
+    {
+        id:8,
+        name:'Warm Bread Pudding',
+        description:'Topped with toasted almonds and brandy-soaked pineapple',
+        price:'$6.00',
+        img:'https://lilluna.com/wp-content/uploads/2019/03/bread-pudding-1-700x700.jpg',
+    },
+    {
+        id:9,
+        name:'Chocolate Mouse',
+        description:'Served in a florentine cookie cup with bittersweet chocolate sauce',
+        price:'$7.25',
+        img:'https://www.cookingclassy.com/wp-content/uploads/2020/02/chocolate-mousse-4.jpg',
+    },
+    {
+        id:10,
+        name:'Cafe Grande',
+        description:"Bailey's Irish Cream, Grand Marnier, hot coffee and whipped cream",
+        price:'$8.00',
+        img:'https://s2.glbimg.com/pGTd3kAbZCgJBM4vEDJmVD806Xo=/e.glbimg.com/og/ed/f/original/2015/03/03/cafezinho.jpg',
+    },
+]

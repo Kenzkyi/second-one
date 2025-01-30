@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react'
-import { starterItem } from './Data'
+import { dessertItem, mainItem, starterItem } from './Data'
 import { useParams } from 'react-router-dom'
 
 export const myContent = createContext()
@@ -7,8 +7,8 @@ export const myContent = createContext()
 const AllContent = ({children,id}) => {
     const [count,setCount] = useState(0)
     const [starterArr,setStarterArr] = useState(starterItem)
-    const [mainArr,setMainArr] = useState([])
-    const [dessertArr,setDessertArr] = useState([])
+    const [mainArr,setMainArr] = useState(mainItem)
+    const [dessertArr,setDessertArr] = useState(dessertItem)
 
     const starter = {name:'starter',
         item:starterArr
