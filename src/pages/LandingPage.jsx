@@ -19,6 +19,9 @@ const LandingPage = () => {
       setImgNum(0)
     }
   },[imgNum])
+  fetch('https://restaurantmenu-s0f3.onrender.com/api/v1')
+  .then((res)=>console.log(res))
+  .catch((res)=>console.log(res))
   // useEffect(()=>{
   //   setTimeout(()=>{
   //     second(!first)

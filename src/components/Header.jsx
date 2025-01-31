@@ -37,7 +37,7 @@ const Header = () => {
         <img src="https://www.thereciperebel.com/wp-content/uploads/2020/07/best-burgers-www.thereciperebel.com-1200-13-of-18.jpg" />
       </div>
       <main className="select-holder">
-      <h3>Get Your Sweet And Refreshing meal </h3>
+      <h3>Welcome to Fancy Resturant </h3>
       {/* <main className='input-holder'>
       <input type="text" placeholder='what do you need'/>
       <CiSearch className='search-icon'/>
