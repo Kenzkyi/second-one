@@ -9,6 +9,7 @@ const AllContent = ({children,id}) => {
     const [starterArr,setStarterArr] = useState(starterItem)
     const [mainArr,setMainArr] = useState(mainItem)
     const [dessertArr,setDessertArr] = useState(dessertItem)
+    const [apiData,setApiData] = useState({})
 
     const starter = {name:'starter',
         item:starterArr
@@ -42,6 +43,10 @@ const AllContent = ({children,id}) => {
               
             }
     }
+    fetch('https://restaurantmenu-s0f3.onrender.com/api/v1')
+    .then((res)=>res.json())
+    .then((res)=>setApiData(res))
+    .catch((res)=>console.log(res))
   return (
     <myContent.Provider value={{count,starter:starter.name,main:main.name,dessert:dessert.name,starterObj:starter,mainObj:main,dessertObj:dessert,selectedItem,obj,setObj,setStarterArr,setMainArr,setDessertArr}}>
       {children}
