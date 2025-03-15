@@ -19,9 +19,13 @@ const LandingPage = () => {
       setImgNum(0)
     }
   },[imgNum])
-  fetch('https://restaurantmenu-s0f3.onrender.com/api/v1')
-  .then((res)=>console.log(res))
-  .catch((res)=>console.log(res))
+
+  //  const  url='https://restaurantmenu-s0f3.onrender.com/api/v1/restaurant'
+  //   fetch(url)
+  //   .then((res)=>res.json())
+  //   .then((res)=>console.log(res))
+  //   .catch((res)=>console.log(res))
+
   // useEffect(()=>{
   //   setTimeout(()=>{
   //     second(!first)

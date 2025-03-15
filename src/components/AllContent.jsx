@@ -43,10 +43,13 @@ const AllContent = ({children,id}) => {
               
             }
     }
-    fetch('https://restaurantmenu-s0f3.onrender.com/api/v1')
-    .then((res)=>res.json())
-    .then((res)=>setApiData(res))
-    .catch((res)=>console.log(res))
+const myFunc = ()=>{
+  url='https://restaurantmenu-s0f3.onrender.com/api/v1/restaurant'
+  fetch(url)
+  .then((res)=>res.json())
+  .then((res)=>setApiData(res))
+  .catch((res)=>console.log(res))
+}
   return (
     <myContent.Provider value={{count,starter:starter.name,main:main.name,dessert:dessert.name,starterObj:starter,mainObj:main,dessertObj:dessert,selectedItem,obj,setObj,setStarterArr,setMainArr,setDessertArr}}>
       {children}

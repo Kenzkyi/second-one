@@ -1,5 +1,5 @@
 .food-item{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
 
@@ -100,7 +100,7 @@
     }
 }
 .right-menu-details{
-    height: 100vh;
+    min-height: 100vh;
     width: 80%;
     background: url('https://www.textures4photoshop.com/tex/thumbs/italian-restaurant-menu-with-chalkboard-background-1449.jpg');
     background-repeat: no-repeat;
@@ -115,21 +115,19 @@
     }
 
     @media screen and (max-width:550px) {
-        height: 80vh;
+        min-height: 80vh;
         width: 100%;
     }
 }
 .right-menu-main-holder{
-    height: 75%;
+    height: 75vh;
     width: 70%;
     /* background-color: aqua; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
 
-    @media screen and (max-width:768px) {
-        width: 100%;
-    }
+
 
     main{
         height: 70%;
@@ -177,6 +175,28 @@
                 width: 100%;
                 /* border: none; */
                 border-radius: 15px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+
+        main{
+            flex-direction: column;
+            /* background-color: aqua; */
+            align-items: center;
+            margin-top: 10px;
+
+            div{
+                width: 80%;
+                height: 60%;
+            }
+
+            nav{
+                width: 80%;
+                height: 50%;
             }
         }
     }
